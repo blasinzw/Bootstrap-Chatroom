@@ -1,0 +1,16 @@
+{
+  "name": "chatRoom-v4",
+  "version": "1.0.0",
+  "description": "A simple chatroom made with bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \" Error: no test specified\" && exit",
+    "start": "node app.js"
+  },
+  "author": "Zander Blasingame",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.3.6"
+  }
+}

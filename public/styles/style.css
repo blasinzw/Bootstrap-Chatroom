@@ -1,0 +1,25 @@
+#messages {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    font-size: 150%;
+}
+
+#messages li {
+    font-family: sans-serif;
+}
+
+#messages li:nth-child(odd) {
+    background: rgb(255, 255, 255);
+}
+
+#messages li:nth-child(even) {
+    background: rgb(200, 200, 200);
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
